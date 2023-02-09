@@ -22,5 +22,5 @@ convertBtn.addEventListener("click", function() {
 
     const kilos = Number(baseValue * kiloToPound).toFixed(3)
     const pounds = Number(baseValue / kiloToPound).toFixed(3)
-    massEl.textContent = `${baseValue} kilos = ${kilos} | ${baseValue} pounds = ${pounds} kilos`
+    massEl.textContent = `${baseValue} kilos = ${kilos} pounds | ${baseValue} pounds = ${pounds} kilos`
 })
